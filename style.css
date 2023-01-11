@@ -135,7 +135,7 @@ section h4
     top:30px;
 }
 
-@media(min-width:1400px) 
+@media(min-width:1300px) 
 {
     h1 
     {
@@ -148,7 +148,7 @@ section h4
     }
     .cards p 
     {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .ratings > div 
     {
@@ -170,5 +170,12 @@ section h4
     .cards p 
     {
         line-height: 40px;
+    }
+}
+@media(min-width: 1200px) and (max-width:1500px)
+{
+    .cards p 
+    {
+        font-size: 1.5rem;
     }
 }
