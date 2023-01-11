@@ -136,12 +136,38 @@ section h4
 }
 @media(min-width:1440px) 
 {
+    h1 
+    {
+        font-size: 4rem;
+    }
     .title p 
     {
         font-size: 2rem;
+        line-height: 40px;
     }
     .cards p 
     {
         font-size: 2rem;
+    }
+    .ratings > div 
+    {
+        height: 70px;
+    }
+    .ratings h5 
+    {
+        font-size: 1.5rem;
+    }
+    .cards img 
+    {
+        width:100px;
+        height: 100px;
+    }
+    .cards h4, .cards h5 
+    {
+        font-size: 1.5rem;
+    }
+    .cards p 
+    {
+        line-height: 40px;
     }
 }
