@@ -134,3 +134,14 @@ section h4
     position: relative;
     top:30px;
 }
+@media(min-width:1440px) 
+{
+    .title p 
+    {
+        font-size: 2rem;
+    }
+    .cards p 
+    {
+        font-size: 2rem;
+    }
+}
