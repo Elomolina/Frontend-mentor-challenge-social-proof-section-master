@@ -194,7 +194,43 @@ section h4
     }
 }
 /*tablets*/
-@media(min-width:600px) and (max-width:1000px)
+@media(min-width:700px) and (max-width:1000px)
+{
+    .title p 
+    {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .ratings > div 
+    {
+        height:50px;
+        width:85%;
+    }
+    .ratings 
+    {
+        position: relative;
+        right:40px;
+        font-size: 1.2rem;
+    }
+    .cards p 
+    {
+        font-size: 1.2rem;
+        line-height: 30px;
+        text-align: center;
+        position: relative;
+        bottom:25px;
+    }
+    .cards h4, .cards h5 
+    {
+        font-size: 1rem;
+    }
+    .cards img 
+    {
+        width:60px;
+        height:60px;
+    }
+}
+@media(min-width:600px) and (max-width:699px)
 {
     .title p 
     {
